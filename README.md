@@ -202,7 +202,7 @@ Semua perintah diawali dengan `/ai`. Berikut daftar perintah yang tersedia:
 | Perintah | Fungsi |
 |---|---|
 | `/ai` | Menampilkan bantuan dan status bot saat ini. |
-| `/ai set\nendpoint: ...\napikey: ...\nmodel: ...` | Mengatur atau mengganti provider AI. |
+| `/ai set\endpoint: ...\apikey: ...\model: ...` | Mengatur atau mengganti provider AI. |
 | `/ai <pertanyaan>` | Bertanya ke AI dengan mode normal (jawaban singkat). |
 | `/ai (thinking) <pertanyaan>` | Bertanya ke AI dengan mode analitis (jawaban mendalam). |
 | `/ai clear` | Menghapus riwayat percakapan untuk chat saat ini. |
@@ -528,7 +528,7 @@ After installation is complete and the bot is first run with `node index.js`, fo
 8. **Enter the 8-digit pairing code** that appeared in the terminal.
 9. If successful, the terminal will display `PAIRING SUCCESS. Bot is ready to run.` and the bot will be active to receive messages.
 
-Next, you need to set up the AI provider to use. Send a message to your own WhatsApp account (or chat to the bot number from another number) with the following format:
+Next, you need to set up the AI provider to use. Send a message to your own WhatsApp account (or chat to the bot number from another number) with the following fformat
 
 ```
 /ai set
@@ -578,7 +578,7 @@ All commands start with `/ai`. Here is the list of available commands:
 | Command | Function |
 |---|---|
 | `/ai` | Displays help and current bot status. |
-| `/ai set\nendpoint: ...\napikey: ...\nmodel: ...` | Sets or changes the AI provider. |
+| `/ai set\endpoint: ...\apikey: ...\model: ...` | Sets or changes the AI provider. |
 | `/ai <question>` | Asks AI in normal mode (short answer). |
 | `/ai (thinking) <question>` | Asks AI in analytical mode (in-depth answer). |
 | `/ai clear` | Clears conversation history for the current chat. |
