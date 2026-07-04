@@ -1,4 +1,4 @@
-[![Node.js CI](https://github.com/shawawah12-alt/SimpleOrAdvance--Wa-ai-s-bot/actions/workflows/node.js.yml/badge.svg)](https://github.com/shawawah12-alt/SimpleOrAdvance--Wa-ai-s-bot/actions/workflows/node.js.yml) (https://img.shields.io/badge/license-MIT-blue) [![Indonesian](https://img.shields.io/badge/README-Bahasa%20Indonesia-red?style=flat&logo=github)](#bahasa-indonesia) [![English](https://img.shields.io/badge/README-English-blue?style=flat&logo=github)](#english-version)
+[![Node.js CI](https://github.com/shawawah12-alt/SimpleOrAdvance--Wa-ai-s-bot/actions/workflows/node.js.yml/badge.svg)](https://github.com/shawawah12-alt/SimpleOrAdvance--Wa-ai-s-bot/actions/workflows/node.js.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Indonesian](https://img.shields.io/badge/README-Bahasa%20Indonesia-red?style=flat&logo=github)](#bahasa-indonesia) [![English](https://img.shields.io/badge/README-English-blue?style=flat&logo=github)](#english-version)
 
 # Simple Or Advance? WA AI's Bot
 
