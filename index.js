@@ -96,11 +96,7 @@ function setupBotListeners(sock, saveCreds) {
                 const setBody = body.slice(3).trim();
                 if (!setBody) {
                     return sock.sendMessage(jid, { 
-                        text: " *[Dibuat oleh Zhaw (Shadiq)
-Instagram: mas_ukkantext
-Tiktok: @ravmoise/test*
-*Panduan Setup Bot AI*\n\nKirim perintah dengan format persis seperti ini:\n\n/ai set\nendpoint: https://api...\napikey: sk-...\nmodel: gpt-4o\n\n*Contoh:*\n/ai set\nendpoint: https://api.openai.com/v1\napikey: sk-proj-123\nmodel: gpt-4o-mini" 
-                    }, { quoted: msg });
+                                                text: "*[Dibuat oleh Zhaw (Shadiq)]*\nInstagram: mas_ukkantext\nTiktok: @ravmoise/test\n\n*Panduan Setup Bot AI*\n\nKirim perintah dengan format persis seperti ini:\n\n/ai set\nendpoint: https://api...\napikey: sk-...\nmodel: gpt-4o\n\n*Contoh:*\n/ai set\nendpoint: https://api.openai.com/v1\napikey: sk-proj-123\nmodel: gpt-4o-mini"    }, { quoted: msg });
                 }
                 
                 const endpointMatch = setBody.match(/endpoint\s*:\s*(.+)/i);
@@ -131,11 +127,7 @@ Tiktok: @ravmoise/test*
             if (body === '') {
                 if (!config.baseUrl || !config.model) {
                     return sock.sendMessage(jid, { 
-                        text: " *[Dibuat oleh Zhaw (Shadiq)
-Instagram: mas_ukkantext
-Tiktok: @ravmoise/test*
-*Bot Belum Disetup.*\n\nSilakan lakukan setup dengan format:\n/ai set\nendpoint: https://api...\napikey: sk-...\nmodel: gpt-4o" 
-                    }, { quoted: msg });
+                                                text: "*[Dibuat oleh Zhaw (Shadiq)]*\nInstagram: mas_ukkantext\nTiktok: @ravmoise/test\n\n*Bot Belum Disetup.*\n\nSilakan lakukan setup dengan format:\n/ai set\nendpoint: https://api...\napikey: sk-...\nmodel: gpt-4o"  }, { quoted: msg });
                 } else {
                     return sock.sendMessage(jid, { 
                         text: " *tambahkan prompt.*\n\nContoh:\n/ai halo\n/ai (thinking) jelaskan teori relativitas\n/ai clear (hapus ingatan)" 
