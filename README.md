@@ -115,7 +115,7 @@ Cocok untuk kamu yang menjalankan bot di VPS, PC Linux, WSL, atau Raspberry Pi. 
 
 ```bash
 # 1. Clone repo
-git clone https://github.com/shawawah12-alt/SimpleOrAdvance--Wa-ai-s-bot.git
+git clone https://github.com/shawawah12-alt/SimpleOrAdvance-wa-ai.git
 cd SimpleOrAdvance--Wa-ai-s-bot
 
 # 2. Beri permission execute dan jalankan script instalasi
